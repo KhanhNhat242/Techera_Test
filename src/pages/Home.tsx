@@ -7,11 +7,21 @@ import Footer from './sections/Footer'
 const Home = () => {
     return (
         <>
-            <General />
-            <AboutUs />
-            <Solution />
-            <Partnership />
-            <Footer />
+            <section id='general'>
+                <General />
+            </section>
+            <section id='about'>
+                <AboutUs />
+            </section>
+            <section id='solution'>
+                <Solution />
+            </section>
+            <section id='partnership'>
+                <Partnership />
+            </section>
+            <section id='contact'>
+                <Footer />
+            </section>
         </>
     )
 }
