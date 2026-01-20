@@ -17,16 +17,16 @@ const imgArr = [sunworld, vnpay, viettel, vinpearl, zalopay]
 const Partnership = () => {
     return (
         <div className='w-full flex flex-col items-center py-[30px]'>
-            <h2 className='w-[90vw] sm:w-full text-[40px] text-(--dark-color) leading-[1.2] text-justify sm:text-center font-bold'>Đối tác & khách hàng tiêu biểu</h2>
-            <p className='w-[90vw] sm:w-full text-justify sm:text-center mt-[10px] sm:m-0 text-(--txt-color)'>Techera tự hào đồng hành cùng các đối tác lớn trong lĩnh vực du lịch và giải trí.</p>
-            <div className='bg-(--light-color) w-[80%] hidden sm:flex flex-row justify-between items-end p-[20px] sm:px-[70px] sm:py-[35px] mt-[10px] sm:mt-[30px] rounded-[10px]'>
+            <h2 className='w-[90vw] lg:w-full text-[40px] text-(--dark-color) leading-[1.2] text-justify lg:text-center font-bold'>Đối tác & khách hàng tiêu biểu</h2>
+            <p className='w-[90vw] lg:w-full text-justify lg:text-center mt-[10px] lg:m-0 text-(--txt-color)'>Techera tự hào đồng hành cùng các đối tác lớn trong lĩnh vực du lịch và giải trí.</p>
+            <div className='bg-(--light-color) w-[80%] hidden lg:flex flex-row justify-between items-end p-[20px] lg:px-[70px] lg:py-[35px] mt-[10px] lg:mt-[30px] rounded-[10px]'>
                 <img src={sunworld} alt="sunworld-img" className='w-[10rem]' />
                 <img src={vnpay} alt="vnpay-img" className='w-[10rem]' />
                 <img src={viettel} alt="viettel-img" className='w-[10rem]' />
                 <img src={vinpearl} alt="vinpearl-img" className='w-[10rem]' />
                 <img src={zalopay} alt="zalopay-img" className='w-[10rem]' />
             </div>
-            <div className='sm:hidden bg-(--light-color) w-[90vw] flex flex-col p-[20px] mt-[10px] rounded-[10px]'>
+            <div className='lg:hidden bg-(--light-color) w-[90vw] flex flex-col p-[20px] mt-[10px] rounded-[10px]'>
                 <Carousel className="w-full">
                     <CarouselContent>
                         {imgArr.map((img, index) => (
